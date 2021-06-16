@@ -1,0 +1,80 @@
+extends base.pug
+
+block scripts
+    script(src='/static/base.js')
+    script(src='/static/home.js')
+block style
+    style
+        include ../static/base-style.css
+    style
+        include ../static/home-style.css
+
+block content
+    div.gettingStarted 
+            div
+                h6 SHAPE YOUR BODY
+            div#cl
+                h1 BE 
+                h1#colourful STRONG 
+            div
+                h1 TRAINING HARD
+            div
+                button(type="submit") GET INFO
+    div.whyChoose 
+        h5 WHY CHOOSE US?
+        h2 PUSH YOUR LIMITS FORWARD
+        div.cards
+            div
+                div
+                    img(src='../static/images/choose-1.png')
+                h4 Modern equipment
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, sit non nobis quas fugit.
+
+            div
+                div
+                    img(src='../static/images/choose-2.jpg')
+                h4 Healthy nutrition plan
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, sit non nobis quas fugit.
+            div
+                div
+                    img(src='../static/images/choose-3.png')
+                h4 Proffesional training plan
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, sit non nobis quas fugit.
+            div
+                div
+                    img(src='../static/images/choose-4.png')
+                h4 Unique to your needs
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, sit non nobis quas fugit.
+    div.ourPlan 
+        h5#oP OUR PLAN
+        h2 CHOOSE YOUR PRICING PLAN
+        div.prices 
+            div
+                h4 Class drop-in
+                h1 $39.0
+                h5.class SINGLE CLASS
+                p Free riding Unlimited equipments Personal trainer Weight losing classes Month to mouth No time restriction
+                button(type="submit") ENROLL NOW
+            div
+                h4 12 Month unlimited
+                h1 $99.0
+                h5.class SINGLE CLASS
+                p Free riding Unlimited equipments Personal trainer Weight losing classes Month to mouth No time restriction
+                button(type="submit") ENROLL NOW
+            div
+                h4 6 Month unlimited
+                h1 $59.0
+                h5.class SINGLE CLASS
+                p Free riding Unlimited equipments Personal trainer Weight losing classes Month to mouth No time restriction
+                button(type="submit") ENROLL NOW
+    div.ourTeam
+        div.box
+            div.box1 
+                h5#ourT Our Team
+                h3#train Train With Experts
+            div.box2 
+                button(type="submit" id="appoint") APPOINTMENT
+        div.imageSlider 
+            img(src="../static/trainer/1.webp", alt="" id="slideImage")
+        
+        

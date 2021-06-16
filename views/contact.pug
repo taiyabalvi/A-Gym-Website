@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    script(src='/static/base.js')
+    script(src='/static/contact..js')
+block style
+    style
+        include ../static/base-style.css
+    style
+        include ../static/contact-style.css
+
+block content
+    div.contactBox 
+        div.heading 
+            h2 CONTACT FORM / REGISTRATION FORM
+        hr#rule
+        div.contactForm 
+            form(action="/contact", method="post")
+                div#first
+                    | Full Name : 
+                    input(type="text" name="firstName" placeholder="first name") 
+                    input(type="text" name="lastName" placeholder="last name")
+                div 
+                    div
+                        | Current Weight 
+                        input(type="number" name="currentWeight")
+                    div
+                        | Height 
+                        input(type="number" name="height")
+                div 
+                    div
+                        | BMI 
+                        input(type="number" name="bmi")
+                    div
+                        | Age 
+                        input(type="number" name="age")
+                div 
+                    div
+                        | Phone number 
+                        input(type="integer" name="phoneNumber")
+                    div
+                        | Email 
+                        input(type="email" name="email")
+
+                div.textar 
+                    | Address
+                    textarea(name="address", cols="30", rows="10" )
+                div.textar 
+                    | More About You
+                    textarea(name="more", cols="30", rows="10" )
+                div#submit 
+                    button(type="submit") Submit 

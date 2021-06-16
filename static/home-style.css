@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* for getting started */
+.gettingStarted{
+    width: 500px;
+    position: relative;
+    top: 280px;
+    left: 750px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.gettingStarted div#cl{
+    display: flex;
+    justify-content: space-between;
+    width:348px;
+}
+.gettingStarted div#cl h1#colourful{
+    color: #f36100;
+}
+.gettingStarted div button{
+    background-color:transparent ;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+.gettingStarted div button:hover{
+    background-color: #f36100;
+    font-size: 14px;
+    border-radius: 0;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: .08em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* for why choose us? */
+.whyChoose{
+    position: relative;
+    background-color: #060606fa;
+    height: 500px;
+    top: 575px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whyChoose h5{
+    color:#f36100 ;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px;
+}
+.cards div{
+    width: 300px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards div div img{
+    width: 80px;
+    height: 80px;
+    filter: invert(1);
+    border-radius: 50px;
+}
+.cards div div img:hover{
+    filter: invert(0);
+}
+.cards div h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#f36100  ;
+}
+.cards div p{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+/* For our plan */
+.ourPlan{
+    background-color: black;
+    position: relative;
+    top: 550px;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ourPlan h5#oP{
+    color:#f36100  ;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 600px;
+}
+.prices div{
+    display: flex;
+    border: 2px solid gray;
+    height: 500px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: skewY(-4deg);
+    box-shadow: -7px -9px #f36100 ;
+
+}
+.prices div p,h5.class{
+    color: gray;
+    transform: skewY(+4deg);
+    text-align: center;
+}
+.prices div h4{
+    transform: skewY(+4deg);
+    font-size: 30px;
+    color: #927e6c;
+}
+.prices div h1{
+    color: #f36100;
+    text-align: center;
+    transform: skewY(+4deg);
+    font-size: 60px;
+}
+.prices div button{
+    background-color: #f36100;
+    text-align: center;
+    transform: skewY(+4deg);
+    font-size: 25px;
+    width: 250px;
+}
+.prices div:hover{
+    background-color: white ;
+}
+
+/* for our team */
+.ourTeam{
+    background-color: #060606fa;
+    position: relative;
+    top: 545px;
+    height: 550px;
+    width: 100%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 74px;
+}
+.box1{
+    height: 50px;
+    width: 400px;
+}
+h5#ourT{
+    color:#f36100;
+    font-size: 20px;
+}
+h3#train{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+button#appoint{
+    background-color:#060606fa ;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+}
+button#appoint:hover{
+    background-color:#f36100 ;
+}
+.imageSlider{
+    position: relative;
+    top:100px;
+    left: 290px;
+    height: 380px;
+    width: 800px;
+}
+img#slideImage{
+    position: relative;
+    border: 2px solid #f36100;
+    box-shadow: -7px -7px white;
+    height: 380px;
+    width: 800px;
+}

@@ -1,0 +1,82 @@
+doctype html
+html
+    head   
+        title Taiyab's Gym
+        block scripts
+        block style
+    body 
+        //- for base header  
+        div.header 
+            div#img 
+                img(src="../static/images/logo.jpg" alt="LOGO")  
+                div ALVI's GYM
+            div#nav 
+                ul
+                    li #[a(href="/" id="home") Home]
+                    hr
+                    li #[a(href="#") About Us]
+                    hr
+                    li #[a(href="#") Classes]
+                    hr
+                    li #[a(href="#") Services]
+                    hr
+                    li #[a(href="#") Our Team]
+                    hr
+                    li #[a(href="/contact") Contact Us]  
+            div#social 
+                ul 
+                    li #[input(type="text" placeholder="Search.." name="search")]
+                    hr
+                    li #[a(href="http://www.facebook.com/" target="_blank") #[img(src="../static/images/social-fb.png")]]
+                    li #[a(href="http://www.twitter.com/" target="_blank") #[img(src="../static/images/social-twitter.jpg")]]
+                    li #[a(href="http://www.whatsapp.com/" target="_blank") #[img(src="../static/images/social-wa.jpg")]]
+                    li #[a(href="http://www.instagram.com/" target="_blank") #[img(src="../static/images/social-insta.jpg")]]
+        block content
+        //- for base footer
+        div.footer 
+            div.first 
+                div
+                    img(src="../static/images/address.png")
+                    h5 333 Middle Winchendon Rd, Rindge,NH 03461 
+                div 
+                    img(src="../static/images/phone.jpg")
+                    h5 +919568207425 | +917077779731
+                div 
+                    img(src="../static/images/gmail.png")
+                    h5 taiyabalvi1@gmail.com
+            hr
+            div.second 
+                div#firstBox
+                    img(src="../static/images/logo.jpg", alt="myLOGO")
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.
+                    ul#sc  
+                        li #[a(href="http://www.facebook.com/" target="_blank") #[img(src="../static/images/social-fb.png")]]
+                        li #[a(href="http://www.twitter.com/" target="_blank") #[img(src="../static/images/social-twitter.jpg")]]
+                        li #[a(href="http://www.whatsapp.com/" target="_blank") #[img(src="../static/images/social-wa.jpg")]]
+                        li #[a(href="http://www.instagram.com/" target="_blank") #[img(src="../static/images/social-insta.jpg")]]
+                div#uLink 
+                    h3 Useful links
+                    ul
+                        li #[a(href="#") About]
+                        li #[a(href="#") Blog]
+                        li #[a(href="#") Classes]
+                        li #[a(href="#") Contact]
+                div 
+                    h3 Support
+                    ul
+                        li #[a(href="#") Login]
+                        li #[a(href="#") My Account]
+                        li #[a(href="#") Subscirbe]
+                        li #[a(href="#") Contact]
+                div 
+                    h3 Tips & Guides
+                    ul#tips
+                        li #[a(href="#") Physical fitness may help prevent depression, anxiety]
+                        p 3 min read | 20 comments
+                        hr
+                        li #[a(href="#") Fitness: The best exercise to lose belly fat and tone up...]
+                        p 3 min read | 20 comments
+            hr#third
+            div.third
+                h3 Copyright ©2020 All rights reserved | This template is made with heart by 
+                h4 MOHD TAIYAB ALVI

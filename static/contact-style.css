@@ -1,0 +1,79 @@
+.contactBox{
+    height: 695px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    top: 103px;
+}
+.heading{
+    position: relative;
+    top: 18px;
+    left: 7%;
+}
+h2{
+    color: white;
+    text-shadow: -4px -4px 3px #f36100;
+}
+hr#rule{
+    border: 1px solid white;
+    position: relative;
+    top: 25px;
+    left: 7%;
+    width: 65%;
+}
+.contactForm{
+    position: relative;
+    top: 50px;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+#first{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.contactForm form div{
+    display :flex ;
+    justify-content: space-between;
+    width: 550px;
+}
+.contactForm form div div{
+    display :flex ;
+    flex-direction: column;
+}
+.textar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 550px;
+    height: 60px;
+}
+#submit button{
+    height: 50px;
+    width: 100px;
+    color: black;
+    background-color:  white;
+}
+#submit button:hover{
+    font-size: 16px;
+    background-color:  #f36100;
+}
+
+input{
+    height: 25px;
+    width: 170px;
+    color: black;
+}
+textarea{
+    color: black;
+}
+.footer {
+    position: relative;
+    top: 100px;
+    height: 500px;
+    background-color: black;
+}
